@@ -22,3 +22,12 @@ python traj_vae_clustering.py --pdb protein_dcd/a_prot.pdb \
                             --first_traj 1 \
                             --end_traj 60 \
                             > vae_clustering.log
+
+**Dependency:**
+python=3.10.10
+pytorch=2.0.1
+cudnn > 8
+cuda=12.3.0
+pyemma=2.5.12
+mdtraj=1.10.1
+
