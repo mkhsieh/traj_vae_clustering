@@ -49,3 +49,4 @@ python contactmap.py\
 --ContactMap\
 --outfolder cluster/cluste_1
 
+(see https://github.com/mkhsieh/contactmap)
