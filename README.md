@@ -14,39 +14,39 @@ usage: traj_vae_clustering.py [-h] [--image_channels IMAGE_CHANNELS] [--batch_si
                               [--sel1 SEL1 [SEL1 ...]] [--sel2 SEL2 [SEL2 ...]]
 
 options:
-  -h, --help            show this help message and exit
-  --image_channels IMAGE_CHANNELS
-                        channel of input map
-  --batch_size BATCH_SIZE
-                        Batch size
-  --lr LR               Learning rate
-  --epochs EPOCHS       Number of epochs for training
-  --latent_dim LATENT_DIM
-                        latent dimension
-  --num_classes NUM_CLASSES
-                        Number of clusters
-  --dense_n DENSE_N     Number of neurons for dense layer
-  --hidden_dims HIDDEN_DIMS [HIDDEN_DIMS ...]
-                        number of convolutional filters in each layer
-  --kernel_size KERNEL_SIZE [KERNEL_SIZE ...]
-                        Convolutional kernel sizes
-  --stride STRIDE [STRIDE ...]
-  --padding PADDING [PADDING ...]
-  --output_padding OUTPUT_PADDING [OUTPUT_PADDING ...]
-  --train_ratio TRAIN_RATIO
-                        ratio of validation data
-  --pdb PDB             the corresponding PDB file of the DCD trajectory.
-  --traj_prefix TRAJ_PREFIX
-                        Name of the trajectory file
-  --first_traj FIRST_TRAJ
-                        the first dcd index
-  --end_traj END_TRAJ   the last dcd index
-  --sel1 SEL1 [SEL1 ...]
-                        A atom selection (mdtraj selection style) string which determines the first group of selected residues.
-  --sel2 SEL2 [SEL2 ...]
-                        A atom selection (mdtraj selection style) string which determines the second group of selected residues.
+  -h, --help            show this help message and exit \
+  --image_channels IMAGE_CHANNELS \
+                        channel of input map \
+  --batch_size BATCH_SIZE \
+                        Batch size \
+  --lr LR               Learning rate \
+  --epochs EPOCHS       Number of epochs for training \
+  --latent_dim LATENT_DIM \
+                        latent dimension \
+  --num_classes NUM_CLASSES \
+                        Number of clusters \
+  --dense_n DENSE_N     Number of neurons for dense layer \
+  --hidden_dims HIDDEN_DIMS [HIDDEN_DIMS ...] \
+                        number of convolutional filters in each layer \
+  --kernel_size KERNEL_SIZE [KERNEL_SIZE ...] \
+                        Convolutional kernel sizes \
+  --stride STRIDE [STRIDE ...] \
+  --padding PADDING [PADDING ...] \
+  --output_padding OUTPUT_PADDING [OUTPUT_PADDING ...] \
+  --train_ratio TRAIN_RATIO \
+                        ratio of validation data \
+  --pdb PDB             the corresponding PDB file of the DCD trajectory. \
+  --traj_prefix TRAJ_PREFIX \
+                        Name of the trajectory file \
+  --first_traj FIRST_TRAJ \
+                        the first dcd index \
+  --end_traj END_TRAJ   the last dcd index \
+  --sel1 SEL1 [SEL1 ...] \
+                        A atom selection (mdtraj selection style) string which determines the first group of selected residues. \
+  --sel2 SEL2 [SEL2 ...] \
+                        A atom selection (mdtraj selection style) string which determines the second group of selected residues.\
 
-example:
+example:\
 python traj_vae_clustering.py --pdb protein_dcd/a_prot.pdb \
                             --traj protein_dcd/a_prot_dyn \
                             --sel1 resid 0 to 42 and name CA \
