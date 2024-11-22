@@ -29,5 +29,13 @@ pytorch=2.0.1\
 cudnn > 8\
 cuda=12.3.0\
 pyemma=2.5.12\
-mdtraj=1.10.1\
+mdtraj=1.10.1
+
+**Output files:**\
+dataset.npy: A series of residue-residue pair distance matrix.\
+rmsds.npy: RMSD analysis of the input trajectory, referring to the first frame.\
+label.npy: the cluster label of each data point after training.\
+
+latent_space_clusters.png: the cluster distribution of the frst and second latent space indexes.\
+cluster folder: cluster dcd and pdb files.\
 
