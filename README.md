@@ -40,12 +40,12 @@ latent_space_clusters.png: the cluster distribution of the frst and second laten
 cluster folder: cluster dcd and pdb files.
 
 **Post-Clustering analysis:**\
-python contactmap.py\ 
---pdb protein_dcd/a_prot.pdb\ 
---traj cluster/cluster_1.dcd\ 
---sel1 resid 0 to 42 and name CA\ 
---sel2 resid 43 to 85 and name CA\ 
---DistanceMap\ 
---ContactMap\ 
+python contactmap.py\
+--pdb protein_dcd/a_prot.pdb\
+--traj cluster/cluster_1.dcd\
+--sel1 resid 0 to 42 and name CA\
+--sel2 resid 43 to 85 and name CA\
+--DistanceMap\
+--ContactMap\
 --outfolder cluster/cluste_1
 
