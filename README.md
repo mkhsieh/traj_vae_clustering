@@ -15,7 +15,7 @@ traj_vae_clustering.py [-h] [--image_channels IMAGE_CHANNELS] [--batch_size BATC
 
 
 **Example:**\
-python traj_vae_clustering.py --pdb protein_dcd/a_prot.pdb \
+python traj_vae_clustering.py\ --pdb protein_dcd/a_prot.pdb \
                             --traj protein_dcd/a_prot_dyn \
                             --sel1 resid 0 to 42 and name CA \
                             --sel2 resid 43 to 85 and name CA \
@@ -37,5 +37,8 @@ rmsds.npy: RMSD analysis of the input trajectory, referring to the first frame.
 
 label.npy: the cluster label of each data point after training.\
 latent_space_clusters.png: the cluster distribution of the frst and second latent space indexes.\
-cluster folder: cluster dcd and pdb files.\
+cluster folder: cluster dcd and pdb files.
+
+**Post-Clustering analysis:**\
+python contactmap.py\ --pdb protein_dcd/a_prot.pdb\ --traj cluster/cluster_1.dcd\ --sel1 resid 0 to 42 and name CA\ --sel2 resid 43 to 85 and name CA\ --DistanceMap\ --ContactMap\ --outfolder cluster/cluste_1
 
