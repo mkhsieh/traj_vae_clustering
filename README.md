@@ -51,5 +51,10 @@ python contactmap.py\
 
 (see https://github.com/mkhsieh/contactmap)
 
-**The result of showcase:**
+**The result of showcase:**\
+The first two latent vector dimensions distribution for the entire dataset.\
 ![image](https://github.com/user-attachments/assets/f59db56e-de36-4aa4-816a-a527613b47be)
+
+The visualization of protein configuration of clusters and post contact map analysis. \
+![image](https://github.com/user-attachments/assets/4cace5d1-af7c-436e-9aa0-f6a3a6a97df6)
+
