@@ -34,7 +34,7 @@ mdtraj=1.10.1
 **Output files:**\
 dataset.npy: A series of residue-residue pair distance matrix.\
 rmsds.npy: RMSD analysis of the input trajectory, referring to the first frame.\
-label.npy: the cluster label of each data point after training.\
+label.npy: the cluster label of each data point after training.
 
 latent_space_clusters.png: the cluster distribution of the frst and second latent space indexes.\
 cluster folder: cluster dcd and pdb files.\
