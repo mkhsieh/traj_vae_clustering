@@ -16,7 +16,7 @@ traj_vae_clustering.py [-h] [--image_channels IMAGE_CHANNELS] [--batch_size BATC
 
 **Example:**\
 python traj_vae_clustering.py\ --pdb protein_dcd/a_prot.pdb \
-                            --traj protein_dcd/a_prot_dyn \
+                            --traj_prefix protein_dcd/a_prot_dyn \
                             --sel1 resid 0 to 42 and name CA \
                             --sel2 resid 43 to 85 and name CA \
                             --first_traj 1 \
