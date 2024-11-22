@@ -50,3 +50,6 @@ python contactmap.py\
 --outfolder cluster/cluste_1
 
 (see https://github.com/mkhsieh/contactmap)
+
+**The result of showcase:**
+![image](https://github.com/user-attachments/assets/f59db56e-de36-4aa4-816a-a527613b47be)
